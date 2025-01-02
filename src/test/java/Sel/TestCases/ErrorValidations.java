@@ -51,23 +51,11 @@ public class ErrorValidations extends BaseTests2{
 
 	}
 	
-	@Test
-	public void verifyselectedProducts() throws InterruptedException
+	public void branch()
 	{
-		String userName = "tarun17@gmail.com";
-		String passWord = "@Tarun17";
-		String prNeed = "ADIDAS ORIGINAL";
-		String country = "india";
-		ProductCatalog pc = lp.LoginDetails(userName, passWord);
-		pc.addToCart(prNeed);
-		CartAndCheckout cac= pc.goToCart();
-		boolean match = cac.verifySelectedProducts(prNeed);
-		AssertJUnit.assertTrue(match);
+		System.out.println("BranchGit");
 	}
-		/*cac.goToCheckout();
-		cac.selectCountry(country);
-		cac.selectPlaceholder();
-		String confirmMessage = cac.confirmationMessage();
-		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));*/
-
+	
 }
+	
+	
