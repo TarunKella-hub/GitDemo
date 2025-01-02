@@ -45,6 +45,7 @@ public class ErrorValidations extends BaseTests2{
 		ProductCatalog pc = lp.LoginDetails(userName, passWord);
 		String loginErrorMesssage = lp.LoginErrorMessage();
 		AssertJUnit.assertEquals(loginErrorMesssage, "Incorrect email  password.");
+		System.out.println("gitHubDemo");
 	}
 	
 	@Test
