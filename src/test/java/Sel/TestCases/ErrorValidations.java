@@ -47,6 +47,8 @@ public class ErrorValidations extends BaseTests2{
 		AssertJUnit.assertEquals(loginErrorMesssage, "Incorrect email  password.");
 		System.out.println("gitHubDemo");
 		System.out.println("made changes in gitStuffs");
+		System.out.println("made changes in GitDemo");
+
 	}
 	
 	@Test
